@@ -5,13 +5,15 @@
 
 nav a{
     text-align: center;
-    background-color:blue ;
-    color:azure ;
+    background-color:#d9c2a3 ;
+    color:rgb(255, 250, 240) ;
     text-decoration: none;
+    padding: 5px;
+
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
-    background-color:aquamarine ;
+    background-color:#d9c2a3 ;
     color:orchid ;
 }
 .button-box{
@@ -25,37 +27,59 @@ main section{
 }
 
 body{
-    background-color: rgb(248, 252, 252);
+    background-color: rgb(252, 251, 248);
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+h2{
+    margin: 0
+}
+
 header{
-    background-color:rgb(248, 252, 252);
+    background-color:#d9c2a3;
 }
 nav a:hover{
     background-color:rgb(248, 252, 252);
     background-color:cyan ;
     color:darkslateblue ;
 }
-.book .join{
+.book, .join{
+    font-size : 18px;
     background-color:black;
     color:azure ;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover .join:hover{
     background-color:beige;
 }
 #background{
-    background-color:aqua;
+    background-color:#d9c2a3;
 }
 .msg{
-    background-color:cyan;
+    background-color: #6f7364;
+    line-height: 1.5em;
+    background-color:#d9c2a3;
+    padding: 35px;
+    margin-top: 200px;
 }
 footer{
-    background-color:cornflowerblue
+    background-color:#d9c2a3;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title{
+    
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
     background-color:aliceblue ;
     color:black ;
+    margin-top: 10px;
 }
 
 .book:hover, .join:hover{
@@ -63,19 +87,21 @@ footer{
     color:red ;
 }
 .msg h2{
-    background-color:azure ;
+    background-color:#d9c2a3 ;
     color:darkblue ;
 }
 .msg p{
-    background-color:azure ;
+    font-size : .8em;
+    background-color:#d9c2a3 ;
     color:darkslateblue ;
+    padding-bottom: 15px;
 }
 footer h3{
-    background-color:cornflowerblue ;
+    background-color:#d9c2a3 ;
     color:midnightblue ;
 }
 footer a{
-    background-color:azure ;
+    background-color:#d9c2a3 ;
     color:black ;
     text-decoration: none;
 }
@@ -84,10 +110,11 @@ footer a:hover{
     color:azure ;
 }
 .logo{
-    width: 80px
+    width: 80px;
 }
 .icon{
-    width: 80px 
+    width: 80px;
+    padding-top: 10px; 
 }
 #hero-img{
     width:100%
@@ -95,3 +122,26 @@ footer a:hover{
 footer h3 a:hover{
     text-decoration: underline;
 }
+
+#logo_link { 
+     padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #d9c2a3;
+}
+main section img{
+    box-sizing: border-box;
+}
+.mountains{
+    margin-top: 150px;
+}
+
+
