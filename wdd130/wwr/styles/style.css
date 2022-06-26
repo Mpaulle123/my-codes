@@ -218,13 +218,16 @@ main section img{
 /*  Here starts the css for the subpage */
 
 
-
+#all{
+    max-width: 1600px;
+    margin:0 auto;
+}
 
 #horizon-img{
     width:100%
 }
 .rivers-grid{
-    display: grid;
+    display:grid;
     grid-template-columns: 250px 250px 100px 400px;
     grid-gap: 30px;
     margin-top: 50px;
@@ -235,7 +238,7 @@ main section img{
 }
 
 .activity-1, .activity-2, .activity-3, .activity-4{
-    width: 235px;
+    width: 100%;
   
 }
 
@@ -274,7 +277,7 @@ main section img{
 
 
 .security{
-    width: 380px;
+    width: 100%;
 }
 
 .security-msg{
