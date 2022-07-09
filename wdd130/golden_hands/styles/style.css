@@ -48,8 +48,6 @@ nav a:hover{
 }
 
 .home-title{
-    
-    font-family: 'Ephesis''Roboto', 'Coda', 'Sarabun' ;
     font-size: 4em;
     color:white ;
 
@@ -108,7 +106,7 @@ nav a:hover{
     
 }
 .seller-msg{
-    grid-column: 3/8;
+    grid-column: 4/8;
     grid-row: 6/8;
     justify-content: space-around;
     justify-self: center;
