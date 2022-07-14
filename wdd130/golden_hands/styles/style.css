@@ -138,6 +138,7 @@ p{
     grid-column: 8/9;
     grid-row:1/2 ;
     margin-top: 150px;
+    text-align: center;
 }
 
 
@@ -152,6 +153,7 @@ p{
     grid-column:2/3 ;
     grid-row:8/9 ;  
     margin-top: 50px;  
+    text-align: center;
 }
 
 .button-box-buyer{
